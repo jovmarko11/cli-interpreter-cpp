@@ -1,0 +1,37 @@
+izmeni reader po tekstu zadatka ono za 512 karaktera
+integrisi svuda syntax
+uvedi istoriju
+
+parser
+exceptions
+
+head i batch
+
+
+PITANJA
+- da li time/date dddfffddd treba da baca gresku?
+- da li komanda wc, echo, tr... treba da cuvaju argument koji se obradjuje
+- da li exceptioni moraju biti realizovani kao zasebne klase
+- da li da uklonim mogucnost za sintaksne promene?
+
+Interpreter: REFAKTORISANJE CELOG INTERPRETERA
+
+Redirections :
+- integracija u Interpreter
+- dodaj semanticka pravila za redirection u pipelineu
+- StreamResolver - primena redirekcija
+- integracija sa pipeline povezivanjem
+
+
+Delimicno implementirano:
+- semanticka pravila za pipeline: (komanda bez inputa sme samo prva u pipelineu
+, komanda bez outputa sme sao poslednja
+, zabrana kombinovanja argumenta, < i pipe)
+
+Nije zavrseno:
+- Batch
+- Head
+- Tretman gresaka (leksicke greske sa pozicijom prvog loseg znaka)
+
+
+PROMENI m_input, m_output, m_inputText, m_outputText nazive da bi bili jasniji
