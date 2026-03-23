@@ -1,3 +1,5 @@
+This project simulates core concepts of operating system shells, including stream-based execution, piping, and command orchestration.
+
 # CLI Interpreter (C++)
 
 A modular command-line interpreter implemented in C++ as part of the OOP1 course at ETF Belgrade.
